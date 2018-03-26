@@ -36,7 +36,7 @@ PASO 4: Descargar cuDNN 7
 PASO 5:Extrae los archivos de cuDNN 7 y ponlos en donde instalaste nvidia toolkit 9.0 deberían mezclarse con archivos anteriores.
 
 Con eso ya debería estar listo, para probar la instalación dentro de anaconda prompt escribir `python` y luego `import tensorflow`.
-
+Tutorial en caso de perderse o algo salga mal (en ingles) https://www.youtube.com/watch?v=uIm3DMprk7M
 
 
 
