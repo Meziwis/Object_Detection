@@ -15,6 +15,32 @@ Haz click en la imagen para ver el demo de yolov2:
 
 [Anaconda](https://www.anaconda.com/download/#windows), tensorflow abre anaconda  prompt y escribe "pip install tensorflow", opencv 3 al igual que tensorflow en anaconda prompt escribir "pip install opencv-python", por ultimo necesitamos Cython de la misma forma anterior "pip install cython".
 
+# En el caso de tener una GPU compatible, la instalación de tensorflow cambia:
+
+PASO 1: Desde el anaconda prompt
+    ```
+    pip install tensorflow-gpu
+    ```
+PASO 2: Descargar e intalar cualquier versión de visual studio 
+
+      https://www.visualstudio.com/es/downloads/
+
+PASO 3:Descargar e instalar nvidia toolkit 9.0
+
+      https://developer.nvidia.com/cuda-90-download-archive
+     
+PASO 4: Descargar cuDNN 7
+
+      https://developer.nvidia.com/cudnn
+      
+PASO 5:Extrae los archivos de cuDNN 7 y ponlos en donde instalaste nvidia toolkit 9.0 deberían mezclarse con archivos anteriores.
+
+Con eso ya debería estar listo, para probar la instalación dentro de anaconda prompt escribir `python` y luego `import tensorflow`.
+
+
+
+
+
 Ahora descargaremos el repostorio original  desde [aquí](https://github.com/thtrieu/darkflow), deben descargarlo en su pc y extraerlo en algun lugar comodo.
 
 Luego desde el anaconda prompt naveguen hasta donde dejaron el archivo:
